@@ -2,10 +2,10 @@ import { Selector, t } from 'testcafe';
 import { ClientFunction } from 'testcafe';
 const getWindowLocation = ClientFunction(() => window.location);
 
-fixture `New Fixture`
+fixture `Sure QA Take Home Exam`
     .page `https://sure-qa-challenge.vercel.app/`;
 
-test('Sure Take Home Exam', async t => {
+test('Happy Path BDD Test', async t => {
 
         /*Landing page*/
         //Don't enter a zipcode
