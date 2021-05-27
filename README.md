@@ -12,3 +12,9 @@ To use this automation, follow these steps:
 2. Download [Visual Studio Code](https://code.visualstudio.com/).
 3. On VS Code, go to the marketplace and download the [TestCafe Test Runner](https://marketplace.visualstudio.com/items?itemName=romanresh.testcafe-test-runner).
 4. Open [**SureQAExam.js**](https://github.com/WParlow/SureTakeHome/blob/main/SureQAExam.js), right click inside the *test* and click "TestCafe: Run Test(s) in Chrome" or your browser of choice.
+
+## Manual Test Cases:
+1. [Landing Page](https://docs.google.com/document/d/1jerPKQGwIkFNSIJ87--XGUQL7PsFN00SQcPB1C6FdDo/edit?usp=sharing)
+2. [Building Materials](https://docs.google.com/document/d/12wtU0vR5auR_7LBRzxUeva0shR0bRQp-_Z5Gzfvh_cM/edit?usp=sharing)
+3. [Water Proximity](https://docs.google.com/document/d/1BKfkV1gPFQbC6umtwm0mQVLDqIcCEu-GHgWGMMhVajY/edit?usp=sharing)
+4. [Quotes](https://docs.google.com/document/d/1BdVZ0lA4ks10rVY_74LGZtiZf1JLBlLgHWNYIuAmQ4Y/edit?usp=sharing)
