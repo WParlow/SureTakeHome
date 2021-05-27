@@ -14,7 +14,7 @@ This automated test verifies several gherkin user stories on each page:
 - Verifying that two plans exist on the Quote page and that their prices are greater than $0
 - Verifying that the flood insurance has a price greater than $0 when a user has selected "Yes" to the water proximity question.
 
-### Instructions:
+#### Instructions:
 To use this automation, follow these steps: 
 1. Clone the repository to your computer.
 2. Download [Visual Studio Code](https://code.visualstudio.com/).
