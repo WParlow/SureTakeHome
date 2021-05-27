@@ -18,10 +18,10 @@ This automated test verifies several gherkin user stories on each page:
 To use this automation, follow these steps: 
 1. Clone the repository to your computer.
 2. Download [Visual Studio Code](https://code.visualstudio.com/).
-3. Run `npm install` (or `yarn install` on Mac) while inside the `SureTakeHome/` folder
-4. Run the test
+4. On windows install [Node.js](https://nodejs.org/en/download/) and run `npm install` (or `yarn install` on Mac) while inside the `SureTakeHome/` folder
+5. Run the test
     - Run `npm test` in the terminal while inside the `SureTakeHome/` folder
-5. Alternatively, on VS Code, go to the marketplace and download the [TestCafe Test Runner](https://marketplace.visualstudio.com/items?itemName=romanresh.testcafe-test-runner).
+6. Alternatively, on VS Code, go to the marketplace and download the [TestCafe Test Runner](https://marketplace.visualstudio.com/items?itemName=romanresh.testcafe-test-runner).
     - Open [**SureQAExam.js**](https://github.com/WParlow/SureTakeHome/blob/main/SureQAExam.js), right click *inside the test* and click "TestCafe: Run Test(s) in Chrome" or your browser of choice. 
 
 
