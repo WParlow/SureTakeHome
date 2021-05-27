@@ -1,5 +1,5 @@
 # SureTakeHome
-Basic BDD Automation for Sure's Take Home Exam.
+Basic BDD Automation for [Sure's Take Home Exam](https://www.notion.so/Sure-QA-Technical-Challenge-8ac9b18e1f7b4317ba104968e60c8d91).
 This test verifies several gherkin user stories on each page: 
 - Entering invalid and valid zip codes on the landing page
 - Selecting "Next" before selecting an option on the building-materials and water-proximity pages and then selecting an option to continue
