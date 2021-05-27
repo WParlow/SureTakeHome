@@ -7,7 +7,7 @@
     "testcafe": "^1.14.2"
   },
   "scripts": {
-    "test": "npm run testcafe chrome SureQAExam.js"
+    "test": "testcafe chrome SureQAExam.js"
   },
   "repository": {
     "type": "git",
