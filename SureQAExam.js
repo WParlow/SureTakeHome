@@ -8,6 +8,11 @@ const input = Selector('input')
 const div = Selector('div')
 const h3 = Selector('h3')
 
+/* 
+ * Find the instructions to this test in the readme:
+ * https://github.com/WParlow/SureTakeHome/blob/main/README.md
+ */
+
 fixture `Sure QA Take Home Exam`
     .page `https://sure-qa-challenge.vercel.app/`;
 
