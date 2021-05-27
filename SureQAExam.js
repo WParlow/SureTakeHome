@@ -77,6 +77,7 @@ test('Happy Path BDD Test', async t => {
         await t
             .expect(standard).gt(0)
             .expect(complete).gt(0)
+            .expect(complete).gt(standard)
         try{
             var flood = parseInt(await getDigits(await Selector('.MuiTypography-body1').innerText))
             console.log("Flood Cost: $" + flood)
