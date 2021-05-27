@@ -10,7 +10,7 @@ This test verifies several gherkin user stories on each page:
 To use this automation, follow these steps: 
 1. Clone the repository to your computer.
 2. Download [Visual Studio Code](https://code.visualstudio.com/).
-3. Run `npm install` (and `yarn install` on Mac) while inside the `SureTakeHome/` folder
+3. Run `npm install` (or `yarn install` on Mac) while inside the `SureTakeHome/` folder
 4. Run the test
     - Run `npm test` in the terminal while inside the `SureTakeHome/` folder
 5. Alternatively, on VS Code, go to the marketplace and download the [TestCafe Test Runner](https://marketplace.visualstudio.com/items?itemName=romanresh.testcafe-test-runner).
