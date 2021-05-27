@@ -11,4 +11,4 @@ To use this automation, follow these steps:
 1. Clone the repository to your computer.
 2. Download [Visual Studio Code](https://code.visualstudio.com/).
 3. On VS Code, go to the marketplace and download the [TestCafe Test Runner](https://marketplace.visualstudio.com/items?itemName=romanresh.testcafe-test-runner).
-4. Open **SureQAExam.js**, right click inside the *test* and click "TestCafe: Run Test(s) in Chrome" or your browser of choice.
+4. Open [**SureQAExam.js**](https://github.com/WParlow/SureTakeHome/blob/main/SureQAExam.js), right click inside the *test* and click "TestCafe: Run Test(s) in Chrome" or your browser of choice.
