@@ -1,0 +1,22 @@
+{
+  "name": "suretakehome",
+  "version": "1.0.0",
+  "description": "Basic BDD Automation for Sure's Take Home Exam",
+  "main": "SureQAExam.js",
+  "devDependencies": {
+    "testcafe": "^1.14.2"
+  },
+  "scripts": {
+    "test": "npm run testcafe chrome SureQAExam.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WParlow/SureTakeHome.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WParlow/SureTakeHome/issues"
+  },
+  "homepage": "https://github.com/WParlow/SureTakeHome#readme"
+}
