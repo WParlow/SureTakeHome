@@ -101,10 +101,7 @@ async function checkURL(bool, str){
 }
 
 async function getDigits(str){
-    var digits = ''
-    for (var i = 0; i < str.length; i++){
-        digits = str.match(/\d+/g)
-    }
+    var digits = str.match(/\d+/g)
     digits = digits[0]
     return digits
 }
