@@ -22,7 +22,7 @@ To use this automation, follow these steps:
 5. Run the test
     - Run `npm test` in the VS Code terminal while inside the `SureTakeHome/` folder
 6. Alternatively, on VS Code, go to the marketplace and download the [TestCafe Test Runner](https://marketplace.visualstudio.com/items?itemName=romanresh.testcafe-test-runner).
-    - Open [**SureQAExam.js**](https://github.com/WParlow/SureTakeHome/blob/main/SureQAExam.js), right click *inside the test* and click "TestCafe: Run Test(s) in Chrome."
+    - Open [**SureQAExam.js**](https://github.com/WParlow/SureTakeHome/blob/main/SureQAExam.js), right click *inside the test* and click "TestCafe: Run Test(s) in Chrome" or your browser of choice.
 
 
 
