@@ -75,8 +75,8 @@ test('Happy Path BDD Test', async t => {
         .expect(input.withAttribute('name', 'includeFloodProtection').exists).ok()
         .expect(span.withText('CHOOSE COMPLETE').exists).ok()
     //Expect the plans to have prices greater than $0 and the flood addition to be greater than 0 if it exists
-    var standard = parseInt(await getDigits(await h3.nth(1).innerText))
-    var complete = parseInt(await getDigits(await h3.nth(3).innerText))
+    const standard = parseInt(await getDigits(await h3.nth(1).innerText))
+    const complete = parseInt(await getDigits(await h3.nth(3).innerText))
     console.log("Standard Cost: $" + standard)
     console.log("Complete Cost: $" + complete)
     await t
@@ -84,7 +84,7 @@ test('Happy Path BDD Test', async t => {
         .expect(complete).gt(0)
         .expect(complete).gt(standard)
     try {
-        var flood = parseInt(await getDigits(await Selector('.MuiTypography-body1').innerText))
+        const flood = parseInt(await getDigits(await Selector('.MuiTypography-body1').innerText))
         console.log("Flood Cost: $" + flood)
         await t.expect(flood).gt(0)
     } catch (e) {
@@ -94,10 +94,10 @@ test('Happy Path BDD Test', async t => {
     await t.wait(3000)
 });
 
-async function checkURL(bool, str) {
-    var url = getWindowLocation();
+async function checkURL(match, str) {
+    const url = getWindowLocation();
 
-    if (bool == true) {
+    if (match) {
         await t.expect(url).contains(new RegExp(str))
     } else {
         await t.expect(url).notContains(new RegExp(str))
@@ -105,7 +105,7 @@ async function checkURL(bool, str) {
 }
 
 async function getDigits(str) {
-    var digits = str.match(/\d+/g)
-    digits = digits[0]
-    return digits
+    const digits = str.match(/\d+/g)
+    const returnDigits = digits[0]
+    return returnDigits
 }
