@@ -14,7 +14,6 @@ This automated test verifies several gherkin user stories across each page:
 - Verifying that two plans exist on the Quote page and that their prices are greater than $0
 - Verifying that the flood insurance has a price greater than $0 when a user has selected "Yes" to the water proximity question.
 
-<<<<<<< HEAD
 ## PC Instructions:
 To use this automation on **PC**, follow these steps: 
 1. Clone the repository to your computer.
@@ -24,7 +23,6 @@ To use this automation on **PC**, follow these steps:
 ## Mac Instructions
 1. Clone the reposity to your computer
 2. Run the command "npm test"
-=======
 #### Instructions:
 To use this automation, follow these steps: 
 1. Clone the repository to your computer.
@@ -34,7 +32,5 @@ To use this automation, follow these steps:
     - Run `npm test` on Windows, (or `yarn test` on Mac) in the VS Code terminal while inside the `SureTakeHome/` folder
 6. Alternatively, on VS Code, go to the marketplace and download the [TestCafe Test Runner](https://marketplace.visualstudio.com/items?itemName=romanresh.testcafe-test-runner).
     - Open [**SureQAExam.js**](https://github.com/WParlow/SureTakeHome/blob/main/SureQAExam.js), right click *inside the test* and click "TestCafe: Run Test(s) in Chrome" or your browser of choice.
->>>>>>> e6c8eff69eb7d5b4139752ad2773e192fe14b47b
-
 
 
